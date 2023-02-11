@@ -1,6 +1,9 @@
 def solution(n):
-    answer = []
-    answer = [i for i in str(n)]
-    answer.sort(reverse = True)
-    answer = int("".join(answer))
+    answer = 0
+    array = []
+    a = str(n)
+    for i in range(0, len(a)):
+        array.append(a[i])
+    array.sort(reverse=True)
+    print(array)
     return answer
