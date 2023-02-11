@@ -8,4 +8,12 @@ def solution(s):
     else :
         return False
 
-    
+def solution(s):
+    answer = True
+    s.lower()
+    a = s.count('p')
+    b = s.count('y')
+    if a == b:
+        return True
+    else :
+        return False
