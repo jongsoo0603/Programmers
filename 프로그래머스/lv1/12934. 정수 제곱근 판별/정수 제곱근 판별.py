@@ -1,6 +1,8 @@
 def solution(n):
     answer = 0
-    for x in range(1, n+1):
-        if x**2 == n:
-            return (x+1) ** 2
-    return -1
+    for i in range(1, n):
+        if (i*i) == n:
+            answer = (i+1) * (i+1)
+        else :
+            answer = -1
+    return answer
