@@ -6,7 +6,7 @@ def solution(n):
     return sum([a[i] * (3 ** i) for i in range(len(a))])
 
 
-# int(tmp,3) tmp 문자열을 3진수로
+# int(tmp,3) 3진법 temp 문자열을 10진수로
 """
 def solution(n):
     tmp = ''
