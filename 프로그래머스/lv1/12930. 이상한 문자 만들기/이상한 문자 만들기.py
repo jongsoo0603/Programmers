@@ -13,16 +13,15 @@ def solution(s):
     return answer.strip()
 """
 def solution(s):
-    answer = []
-    word=s.split(" ")
-    for i in word:
-        part=[]
-        for j in range(0,len(i)):
+    a=[]
+    s=s.split(" ")
+    for i in range(len(s)):
+        for j in range(len(s[i])):
             if j%2==0:
-                part.append(i[j].upper())
+                a.append(s[i][j].upper())
             else:
-                part.append(i[j].lower())
-        part="".join(part)
-        answer.append(part)
-    answer=" ".join(answer)
-    return answer
+                a.append(s[i][j].lower())
+        a.append(" ")
+
+    c="".join(a[:-1])
+    return c
