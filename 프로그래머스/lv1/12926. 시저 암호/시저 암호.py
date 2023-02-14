@@ -17,7 +17,7 @@ def solution(s, n):
             answer += " "
     return answer
 
-# 범위 계산해서 식 줄이기
+# 범위 계산해서 코드 줄이기
 """
 def solution(s, n):
     answer = ''
