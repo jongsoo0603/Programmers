@@ -1,4 +1,6 @@
-"""def solution(s):
+# 테스트는 통과 하는데 왜 안되는지 모르겠음
+"""
+def solution(s):
     answer = ""
     for wrd in s.split(" "):
         if wrd != '':
@@ -23,5 +25,4 @@ def solution(s):
         part="".join(part)
         answer.append(part)
     answer=" ".join(answer)
-    print(answer)
     return answer
